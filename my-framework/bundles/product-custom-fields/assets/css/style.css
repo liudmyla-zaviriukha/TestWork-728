@@ -1,0 +1,20 @@
+.woo_cf_image_field{
+    margin: 0 !important;
+    position: relative;
+}
+.woo_cf_image_field img{
+    max-width: 100px;
+    height: auto;
+}
+.woo_cf_image_field .remove-file-btn{
+    position: absolute;
+    background: url(../img/ico-delete.png);
+    height: 16px;
+    width: 16px;
+    left: 255px;
+    top: 0;
+    cursor: pointer;
+}
+.woo_cf_field_action{
+    margin: 40px 10px 20px !important;
+}

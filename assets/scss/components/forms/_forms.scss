@@ -1,0 +1,31 @@
+form{
+  position: relative;
+  label{
+    display: inline-block;
+    width: 160px;
+  }
+  .error{
+    border: solid 1px red;
+  }
+  #success_message{
+    position: absolute;
+    left: 160px;
+    bottom: 12px;
+    font-weight: bold;
+    color: mediumseagreen;
+  }
+  #product_file{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  #product_filelist {
+    padding-left: 160px;
+    img{
+      max-width: 197px;
+      height: auto;
+    }
+  }
+}
