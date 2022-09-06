@@ -64,6 +64,7 @@ var Create_Product_On_Front = {
                     image.val('');
                     date.val('');
                     type.find('option:first').prop('selected',true).trigger('change');
+                    jQuery('input').removeClass('error');
                     jQuery('#product_filelist').empty();
                     form.append( '<div id="success_message">'+response.data.message+'</div>' ).delay(10000).queue(function(){
                         jQuery('#success_message').remove();
